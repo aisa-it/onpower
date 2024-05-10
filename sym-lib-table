@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ESP-12F")(type "KiCad")(uri "${KIPRJMOD}/libs/ESP-12F.kicad_sym")(options "")(descr ""))
+  (lib (name "TRA2")(type "KiCad")(uri "${KIPRJMOD}/libs/TRA2.kicad_sym")(options "")(descr ""))
+  (lib (name "TBP01R2-508-04BE")(type "KiCad")(uri "${KIPRJMOD}/libs/TBP01R2-508-04BE.kicad_sym")(options "")(descr ""))
+)

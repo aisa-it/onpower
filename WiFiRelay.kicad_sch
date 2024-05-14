@@ -3389,7 +3389,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 57.15) (xy 60.96 57.15)
+			(xy 44.45 57.15) (xy 60.96 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3449,7 +3449,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 44.45) (xy 46.99 39.37)
+			(xy 44.45 44.45) (xy 44.45 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3479,13 +3479,13 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 104.14) (xy 113.03 105.41)
+			(xy 72.39 59.69) (xy 71.12 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "31f7c4a8-9b13-4c78-811c-bf53d7fdcc57")
+		(uuid "3601d997-ad51-4c67-9fea-ce025256b9b8")
 	)
 	(wire
 		(pts
@@ -3499,13 +3499,13 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 55.88) (xy 71.12 58.42)
+			(xy 73.66 38.1) (xy 73.66 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3eeb47b1-a626-4fca-aff5-1b58174b026f")
+		(uuid "422cd976-b52b-4ae8-a130-0bca44c43d13")
 	)
 	(wire
 		(pts
@@ -3599,6 +3599,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 106.68) (xy 157.48 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f20bb61-2bde-44c6-9817-d1978765bb51")
+	)
+	(wire
+		(pts
 			(xy 50.8 66.04) (xy 50.8 68.58)
 		)
 		(stroke
@@ -3609,13 +3619,23 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 27.94) (xy 73.66 30.48)
+			(xy 82.55 59.69) (xy 80.01 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "701ea6b1-5498-4579-9c0a-1399035e4f86")
+	)
+	(wire
+		(pts
+			(xy 153.67 106.68) (xy 157.48 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "738ae086-15b9-41c7-b08b-d0eda93bc768")
 	)
 	(wire
 		(pts
@@ -3669,7 +3689,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 121.92) (xy 113.03 123.19)
+			(xy 157.48 124.46) (xy 157.48 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3679,13 +3699,13 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 104.14) (xy 113.03 104.14)
+			(xy 71.12 59.69) (xy 71.12 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "83d1c369-605f-4749-b2c7-cfc6933e5f7e")
+		(uuid "82e41210-c364-4719-a349-551811eea2e6")
 	)
 	(wire
 		(pts
@@ -3799,7 +3819,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 39.37) (xy 60.96 39.37)
+			(xy 44.45 39.37) (xy 60.96 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3816,16 +3836,6 @@
 			(type default)
 		)
 		(uuid "c8395ea6-aeb8-4bae-b6d2-d8640883deb2")
-	)
-	(wire
-		(pts
-			(xy 73.66 38.1) (xy 73.66 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8d32454-df9d-45cc-9462-3570dda22f3f")
 	)
 	(wire
 		(pts
@@ -3869,7 +3879,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 52.07) (xy 46.99 57.15)
+			(xy 44.45 52.07) (xy 44.45 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3919,7 +3929,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 113.03) (xy 113.03 114.3)
+			(xy 157.48 115.57) (xy 157.48 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3960,13 +3970,13 @@
 		(uuid "8499a342-93c5-42f2-a382-4727ba07b108")
 	)
 	(label "LOAD"
-		(at 71.12 58.42 270)
+		(at 73.66 38.1 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "966628fd-abaf-4772-b1cd-9a28f1565691")
 	)
@@ -4049,7 +4059,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 113.03 118.11 90)
+		(at 157.48 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4058,7 +4068,7 @@
 		(fields_autoplaced yes)
 		(uuid "13037b82-bde9-43b0-8148-7a604447fda3")
 		(property "Reference" "D2"
-			(at 116.84 118.4274 90)
+			(at 161.29 120.9674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4067,7 +4077,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 116.84 120.9674 90)
+			(at 161.29 123.5074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4076,7 +4086,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D3.0mm"
-			(at 113.03 118.11 0)
+			(at 157.48 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4085,7 +4095,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 118.11 0)
+			(at 157.48 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4094,7 +4104,25 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 113.03 118.11 0)
+			(at 157.48 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "19"
+			(at 157.48 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.chipdip.ru/product/l-1154gt"
+			(at 157.48 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4119,7 +4147,7 @@
 	)
 	(symbol
 		(lib_id "power:VAC")
-		(at 73.66 27.94 0)
+		(at 82.55 59.69 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4128,7 +4156,7 @@
 		(fields_autoplaced yes)
 		(uuid "15a27e41-93a3-4721-aa22-2576af6e95f1")
 		(property "Reference" "#PWR09"
-			(at 73.66 30.48 0)
+			(at 80.01 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4137,7 +4165,7 @@
 			)
 		)
 		(property "Value" "VAC"
-			(at 73.66 20.32 0)
+			(at 90.17 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4145,7 +4173,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 27.94 0)
+			(at 82.55 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4154,7 +4182,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 27.94 0)
+			(at 82.55 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4163,7 +4191,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VAC\""
-			(at 73.66 27.94 0)
+			(at 82.55 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4276,7 +4304,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 115.57 96.52 0)
 			(effects
 				(font
@@ -4295,6 +4323,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 115.57 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "33"
 			(at 115.57 101.6 0)
 			(effects
 				(font
@@ -4432,6 +4469,15 @@
 			)
 		)
 		(property "Description" "802.11 b/g/n Wi-Fi Module"
+			(at 138.43 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "100"
 			(at 138.43 96.52 0)
 			(effects
 				(font
@@ -4637,6 +4683,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "8"
+			(at 200.66 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dee1ac60-5b27-4b3a-b9a2-cfff66ecaa47")
 		)
@@ -4697,6 +4752,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 44.45 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0,4"
 			(at 44.45 66.04 0)
 			(effects
 				(font
@@ -4974,6 +5038,24 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "24"
+			(at 187.96 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.chipdip.ru/product/grm31cr61a106k"
+			(at 187.96 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9782c5cb-3205-4008-9279-fb711c38c3d9")
 		)
@@ -4991,7 +5073,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 113.03 123.19 0)
+		(at 157.48 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5000,7 +5082,7 @@
 		(fields_autoplaced yes)
 		(uuid "65a4df35-1936-446b-a7f5-916f68245fa9")
 		(property "Reference" "#PWR015"
-			(at 113.03 129.54 0)
+			(at 157.48 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5009,7 +5091,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 113.03 128.27 0)
+			(at 157.48 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5017,7 +5099,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 123.19 0)
+			(at 157.48 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5026,7 +5108,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 123.19 0)
+			(at 157.48 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5035,7 +5117,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 123.19 0)
+			(at 157.48 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5102,6 +5184,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 50.8 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0,4"
 			(at 50.8 72.39 0)
 			(effects
 				(font
@@ -5260,7 +5351,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 46.99 48.26 270)
+		(at 44.45 48.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5269,7 +5360,7 @@
 		(fields_autoplaced yes)
 		(uuid "7c55c0eb-a39d-4bd6-8b0b-6048898a041c")
 		(property "Reference" "D1"
-			(at 49.53 46.9899 90)
+			(at 46.99 46.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5277,8 +5368,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 49.53 49.5299 90)
+		(property "Value" "1N4007"
+			(at 46.99 49.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5287,7 +5378,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_A-405_P2.54mm_Vertical_KathodeUp"
-			(at 46.99 48.26 0)
+			(at 44.45 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5296,7 +5387,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.99 48.26 0)
+			(at 44.45 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5305,7 +5396,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 46.99 48.26 0)
+			(at 44.45 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5314,7 +5405,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 46.99 48.26 0)
+			(at 44.45 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5323,7 +5414,25 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 46.99 48.26 0)
+			(at 44.45 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0,8"
+			(at 44.45 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://aliexpress.ru/item/32731035430.html?sku_id=12000018078130628"
+			(at 44.45 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5396,6 +5505,24 @@
 			)
 		)
 		(property "Description" "5.3A Id, 30V Vds, 27mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
+			(at 58.42 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "19"
+			(at 58.42 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.chipdip.ru/product0/8017689792"
 			(at 58.42 66.04 0)
 			(effects
 				(font
@@ -5540,6 +5667,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0,4"
+			(at 116.84 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "428c4929-9ced-424b-b2c7-7bc9f519ed4d")
 		)
@@ -5557,16 +5693,15 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 73.66 34.29 0)
+		(at 76.2 59.69 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "988735de-ffe5-4db3-a34a-3feaf3bd9611")
 		(property "Reference" "F1"
-			(at 76.2 33.0199 0)
+			(at 75.184 57.912 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5575,7 +5710,7 @@
 			)
 		)
 		(property "Value" "15A"
-			(at 76.2 35.5599 0)
+			(at 74.422 61.722 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5584,7 +5719,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_Littelfuse_395Series"
-			(at 71.882 34.29 90)
+			(at 76.2 57.912 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5593,7 +5728,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 34.29 0)
+			(at 76.2 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5602,7 +5737,25 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 73.66 34.29 0)
+			(at 76.2 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "44"
+			(at 76.2 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://aliexpress.ru/item/1005002933092692.html?sku_id=12000022861386493"
+			(at 76.2 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5670,6 +5823,24 @@
 			)
 		)
 		(property "Description" "Fuse"
+			(at 153.67 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "39"
+			(at 153.67 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.chipdip.ru/product/mf02s84-1000-1"
 			(at 153.67 29.21 0)
 			(effects
 				(font
@@ -5903,7 +6074,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0134f3e-8c53-4039-ac27-52e83bd8febc")
-		(property "Reference" "SW1"
+		(property "Reference" "IO0"
 			(at 172.72 73.66 0)
 			(effects
 				(font
@@ -5955,7 +6126,7 @@
 		(instances
 			(project "WiFiRelay"
 				(path "/456f6305-4497-43ef-94cc-8a7589663bc4"
-					(reference "SW1")
+					(reference "IO0")
 					(unit 1)
 				)
 			)
@@ -6008,6 +6179,24 @@
 			)
 		)
 		(property "Description" "PCB SPDT relay, 10A"
+			(at 66.04 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "88"
+			(at 66.04 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.chipdip.ru/product0/8025423609"
 			(at 66.04 48.26 0)
 			(effects
 				(font
@@ -6093,6 +6282,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "170"
+			(at 170.18 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "aee6ca7a-995d-4e44-833a-87efc54c9324")
 		)
@@ -6124,7 +6322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b95b8be1-81c7-4625-b7be-ac363ba9bfb5")
-		(property "Reference" "J1"
+		(property "Reference" "UART1"
 			(at 176.53 87.6299 0)
 			(effects
 				(font
@@ -6184,7 +6382,7 @@
 		(instances
 			(project "WiFiRelay"
 				(path "/456f6305-4497-43ef-94cc-8a7589663bc4"
-					(reference "J1")
+					(reference "UART1")
 					(unit 1)
 				)
 			)
@@ -6234,6 +6432,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 116.84 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0,4"
 			(at 116.84 86.36 0)
 			(effects
 				(font
@@ -6312,6 +6519,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0,4"
+			(at 160.02 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8882861c-7ba1-4b49-8e00-8ca81a6a59bb")
 		)
@@ -6329,7 +6545,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 113.03 109.22 0)
+		(at 157.48 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6338,7 +6554,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4b83763-3460-4c72-bfd0-9fb021706d07")
 		(property "Reference" "R6"
-			(at 115.57 107.9499 0)
+			(at 160.02 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6347,7 +6563,7 @@
 			)
 		)
 		(property "Value" "82"
-			(at 115.57 110.4899 0)
+			(at 160.02 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6356,7 +6572,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 111.252 109.22 90)
+			(at 155.702 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6365,7 +6581,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 109.22 0)
+			(at 157.48 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6374,7 +6590,16 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 113.03 109.22 0)
+			(at 157.48 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0,4"
+			(at 157.48 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6483,7 +6708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "None"
+		(property "Price" "33"
 			(at 59.69 101.6 0)
 			(effects
 				(font
@@ -6533,7 +6758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=3604442&manufacturer=CUI Devices&part_name=TBP01R2-508-04BE&search_term=bornera"
+		(property "Purchase-URL" "https://www.chipdip.ru/product/300-041-12"
 			(at 59.69 101.6 0)
 			(effects
 				(font
